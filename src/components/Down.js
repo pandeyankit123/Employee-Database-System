@@ -135,8 +135,8 @@ function Down(props) {
                 </div >
 
                 <div>
-                    <button className="btn btn-secondary btn-lg mx-2 " onClick={exportToExcel} title="Export to Excel"><i class='fas fa-file-export' style={{ fontSize: "25px"}}></i></button>
                     <button type="button" className="btn btn-primary btn-lg" onClick={() => { add() }} style={{ "alignItems": "center" }}>Add Employee</button>
+                    <button className="btn btn-secondary btn-lg mx-2 " onClick={exportToExcel} title="Export to Excel"><i class='fas fa-file-export' style={{ fontSize: "25px"}}></i></button>
                 </div>
             </div>
         </>
